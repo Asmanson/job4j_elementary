@@ -6,7 +6,7 @@ import org.junit.Test;
 public class FitTest {
 
     @Test
-    public void whenMan190Then103and5() {
+    public void whenMan190Then103dot5() {
         short in = 190;
         double expected = 103.5;
         double out = Fit.manWeight(in);
