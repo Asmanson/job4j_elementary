@@ -9,12 +9,12 @@ public class MathCalculator {
     }
 
     public static double sumRazAndDel(double first, double second) {
-        return raz(first, second)
-                + del(first, second);
+        return subtract(first, second)
+                + divide(first, second);
     }
 
     public static double sumAll(double first, double second) {
-        return raz(first, second) + del(first, second) + sum(first, second) + multiply(first, second);
+        return subtract(first, second) + divide(first, second) + sum(first, second) + multiply(first, second);
     }
 
     public static void main(String[] args) {
