@@ -17,9 +17,9 @@ public class Converter {
         float exp = 2;
         boolean passed = exp == euro;
         System.out.println("140 rubles are " + euro + " euro. 140 rubles are 2. Test result : " + passed);
-        float dollar = Converter.rubleToDollar(140);
+        float doll = Converter.rubleToDollar(140);
         exp = 2.3333333f;
-        passed = exp == dollar;
-        System.out.println("140 rubles are " + dollar + " dollar. 140 rubles are 2.3333333. Test result : " + passed);
+        passed = exp == doll;
+        System.out.println("140 rubles are " + doll + " dollar. 140 rubles are 2.3333333. Test result : " + passed);
     }
 }
