@@ -19,6 +19,7 @@ public class SortSelectedTest {
         int[] expected = new int[] {0, 4, 10};
         assertThat(result).containsExactly(expected);
     }
+
     @Test
     public void whenSort5() {
         int[] data = new int[] {5, 4, 3, 2, 5};
